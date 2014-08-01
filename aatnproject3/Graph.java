@@ -169,12 +169,12 @@ class Graph{
         }
         else
         {
-            System.out.println("Not connected are");
-            for(int i = 0 ; i < this.V ; i++){
-                if(!toVisit[i]){
-                    System.out.println(i);
-                }
-            }
+            //System.out.println("Not connected are");
+           // for(int i = 0 ; i < this.V ; i++){
+             //   if(!toVisit[i]){
+                   // System.out.println(i);
+               // }
+            //}
             return false;
         }
     
